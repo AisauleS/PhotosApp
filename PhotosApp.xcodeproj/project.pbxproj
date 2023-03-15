@@ -76,15 +76,8 @@
 		E48F96D629C26C8F00C7FABC /* PhotosApp */ = {
 			isa = PBXGroup;
 			children = (
-				E48F96EB29C26D8800C7FABC /* PhotosTabbar.swift */,
-				E48F96ED29C26DC200C7FABC /* DefaultTabBarViewController.swift */,
-				E48F96F229C26E0500C7FABC /* AlbumViewController.swift */,
-				E48F96F429C26E4800C7FABC /* CollectionViewCells */,
-				E48F96F929C26EB900C7FABC /* Extensions */,
-				E48F970029C26F8800C7FABC /* Model */,
-				E48F970329C26FE300C7FABC /* SectionHeader */,
-				E48F96D929C26C8F00C7FABC /* SceneDelegate.swift */,
-				E48F96D729C26C8F00C7FABC /* AppDelegate.swift */,
+				E48F970929C2734600C7FABC /* App */,
+				E48F970829C272DC00C7FABC /* ViewControllers */,
 				E48F96E029C26C9000C7FABC /* Assets.xcassets */,
 				E48F96E229C26C9000C7FABC /* LaunchScreen.storyboard */,
 				E48F96E529C26C9000C7FABC /* Info.plist */,
@@ -126,6 +119,29 @@
 				E48F970629C2703F00C7FABC /* Separator.swift */,
 			);
 			path = SectionHeader;
+			sourceTree = "<group>";
+		};
+		E48F970829C272DC00C7FABC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E48F96EB29C26D8800C7FABC /* PhotosTabbar.swift */,
+				E48F96F229C26E0500C7FABC /* AlbumViewController.swift */,
+				E48F96ED29C26DC200C7FABC /* DefaultTabBarViewController.swift */,
+				E48F96F429C26E4800C7FABC /* CollectionViewCells */,
+				E48F970329C26FE300C7FABC /* SectionHeader */,
+				E48F970029C26F8800C7FABC /* Model */,
+				E48F96F929C26EB900C7FABC /* Extensions */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E48F970929C2734600C7FABC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E48F96D929C26C8F00C7FABC /* SceneDelegate.swift */,
+				E48F96D729C26C8F00C7FABC /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
