@@ -9,19 +9,40 @@
 /* Begin PBXBuildFile section */
 		E48F96D829C26C8F00C7FABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96D729C26C8F00C7FABC /* AppDelegate.swift */; };
 		E48F96DA29C26C8F00C7FABC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96D929C26C8F00C7FABC /* SceneDelegate.swift */; };
-		E48F96DC29C26C8F00C7FABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96DB29C26C8F00C7FABC /* ViewController.swift */; };
 		E48F96E129C26C9000C7FABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48F96E029C26C9000C7FABC /* Assets.xcassets */; };
 		E48F96E429C26C9000C7FABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48F96E229C26C9000C7FABC /* LaunchScreen.storyboard */; };
+		E48F96EC29C26D8800C7FABC /* PhotosTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96EB29C26D8800C7FABC /* PhotosTabbar.swift */; };
+		E48F96EE29C26DC200C7FABC /* DefaultTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96ED29C26DC200C7FABC /* DefaultTabBarViewController.swift */; };
+		E48F96F129C26DE700C7FABC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E48F96F029C26DE700C7FABC /* SnapKit */; };
+		E48F96F329C26E0500C7FABC /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96F229C26E0500C7FABC /* AlbumViewController.swift */; };
+		E48F96F629C26E6F00C7FABC /* AlbumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96F529C26E6F00C7FABC /* AlbumListCell.swift */; };
+		E48F96F829C26E9500C7FABC /* AlbumFoldersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96F729C26E9500C7FABC /* AlbumFoldersCell.swift */; };
+		E48F96FB29C26EE500C7FABC /* UploadDataFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96FA29C26EE500C7FABC /* UploadDataFunctions.swift */; };
+		E48F96FD29C26F3500C7FABC /* CollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96FC29C26F3500C7FABC /* CollectionViewDataSource.swift */; };
+		E48F96FF29C26F6400C7FABC /* SectionsSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F96FE29C26F6400C7FABC /* SectionsSeparator.swift */; };
+		E48F970229C26FA100C7FABC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F970129C26FA100C7FABC /* Model.swift */; };
+		E48F970529C2702000C7FABC /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F970429C2702000C7FABC /* SectionHeader.swift */; };
+		E48F970729C2703F00C7FABC /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F970629C2703F00C7FABC /* Separator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E48F96D429C26C8F00C7FABC /* PhotosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F96D729C26C8F00C7FABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48F96D929C26C8F00C7FABC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E48F96DB29C26C8F00C7FABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E48F96E029C26C9000C7FABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E48F96E329C26C9000C7FABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E48F96E529C26C9000C7FABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48F96EB29C26D8800C7FABC /* PhotosTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTabbar.swift; sourceTree = "<group>"; };
+		E48F96ED29C26DC200C7FABC /* DefaultTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTabBarViewController.swift; sourceTree = "<group>"; };
+		E48F96F229C26E0500C7FABC /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		E48F96F529C26E6F00C7FABC /* AlbumListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListCell.swift; sourceTree = "<group>"; };
+		E48F96F729C26E9500C7FABC /* AlbumFoldersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumFoldersCell.swift; sourceTree = "<group>"; };
+		E48F96FA29C26EE500C7FABC /* UploadDataFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDataFunctions.swift; sourceTree = "<group>"; };
+		E48F96FC29C26F3500C7FABC /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
+		E48F96FE29C26F6400C7FABC /* SectionsSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsSeparator.swift; sourceTree = "<group>"; };
+		E48F970129C26FA100C7FABC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E48F970429C2702000C7FABC /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		E48F970629C2703F00C7FABC /* Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48F96F129C26DE700C7FABC /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +76,56 @@
 		E48F96D629C26C8F00C7FABC /* PhotosApp */ = {
 			isa = PBXGroup;
 			children = (
-				E48F96D729C26C8F00C7FABC /* AppDelegate.swift */,
+				E48F96EB29C26D8800C7FABC /* PhotosTabbar.swift */,
+				E48F96ED29C26DC200C7FABC /* DefaultTabBarViewController.swift */,
+				E48F96F229C26E0500C7FABC /* AlbumViewController.swift */,
+				E48F96F429C26E4800C7FABC /* CollectionViewCells */,
+				E48F96F929C26EB900C7FABC /* Extensions */,
+				E48F970029C26F8800C7FABC /* Model */,
+				E48F970329C26FE300C7FABC /* SectionHeader */,
 				E48F96D929C26C8F00C7FABC /* SceneDelegate.swift */,
-				E48F96DB29C26C8F00C7FABC /* ViewController.swift */,
+				E48F96D729C26C8F00C7FABC /* AppDelegate.swift */,
 				E48F96E029C26C9000C7FABC /* Assets.xcassets */,
 				E48F96E229C26C9000C7FABC /* LaunchScreen.storyboard */,
 				E48F96E529C26C9000C7FABC /* Info.plist */,
 			);
 			path = PhotosApp;
+			sourceTree = "<group>";
+		};
+		E48F96F429C26E4800C7FABC /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E48F96F529C26E6F00C7FABC /* AlbumListCell.swift */,
+				E48F96F729C26E9500C7FABC /* AlbumFoldersCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		E48F96F929C26EB900C7FABC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E48F96FA29C26EE500C7FABC /* UploadDataFunctions.swift */,
+				E48F96FC29C26F3500C7FABC /* CollectionViewDataSource.swift */,
+				E48F96FE29C26F6400C7FABC /* SectionsSeparator.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E48F970029C26F8800C7FABC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E48F970129C26FA100C7FABC /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E48F970329C26FE300C7FABC /* SectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				E48F970429C2702000C7FABC /* SectionHeader.swift */,
+				E48F970629C2703F00C7FABC /* Separator.swift */,
+			);
+			path = SectionHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +144,9 @@
 			dependencies = (
 			);
 			name = PhotosApp;
+			packageProductDependencies = (
+				E48F96F029C26DE700C7FABC /* SnapKit */,
+			);
 			productName = PhotosApp;
 			productReference = E48F96D429C26C8F00C7FABC /* PhotosApp.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +175,9 @@
 				Base,
 			);
 			mainGroup = E48F96CB29C26C8F00C7FABC;
+			packageReferences = (
+				E48F96EF29C26DE700C7FABC /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = E48F96D529C26C8F00C7FABC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,8 +204,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E48F96DC29C26C8F00C7FABC /* ViewController.swift in Sources */,
+				E48F96F329C26E0500C7FABC /* AlbumViewController.swift in Sources */,
+				E48F96FB29C26EE500C7FABC /* UploadDataFunctions.swift in Sources */,
+				E48F96F829C26E9500C7FABC /* AlbumFoldersCell.swift in Sources */,
+				E48F970229C26FA100C7FABC /* Model.swift in Sources */,
+				E48F96FF29C26F6400C7FABC /* SectionsSeparator.swift in Sources */,
 				E48F96D829C26C8F00C7FABC /* AppDelegate.swift in Sources */,
+				E48F96FD29C26F3500C7FABC /* CollectionViewDataSource.swift in Sources */,
+				E48F96F629C26E6F00C7FABC /* AlbumListCell.swift in Sources */,
+				E48F970529C2702000C7FABC /* SectionHeader.swift in Sources */,
+				E48F970729C2703F00C7FABC /* Separator.swift in Sources */,
+				E48F96EC29C26D8800C7FABC /* PhotosTabbar.swift in Sources */,
+				E48F96EE29C26DC200C7FABC /* DefaultTabBarViewController.swift in Sources */,
 				E48F96DA29C26C8F00C7FABC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +362,6 @@
 				INFOPLIST_FILE = PhotosApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,7 +389,6 @@
 				INFOPLIST_FILE = PhotosApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -348,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E48F96EF29C26DE700C7FABC /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E48F96F029C26DE700C7FABC /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E48F96EF29C26DE700C7FABC /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E48F96CC29C26C8F00C7FABC /* Project object */;
 }
