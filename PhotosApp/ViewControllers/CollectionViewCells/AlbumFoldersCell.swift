@@ -81,7 +81,7 @@ class AlbumFoldersCell: UICollectionViewCell {
         }
         
         folderImage.snp.makeConstraints{make in
-            make.height.equalTo(165)
+            make.height.equalTo(162)
         }
     }
     

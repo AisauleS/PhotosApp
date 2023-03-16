@@ -43,7 +43,7 @@ class AlbumViewController: UIViewController {
                 let layoutGroup = NSCollectionLayoutGroup.vertical(layoutSize: groupSize, subitem: layoutItem, count: 2)
                 layoutGroup.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 0)
                 let layoutSection = NSCollectionLayoutSection(group: layoutGroup)
-                layoutSection.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 0, bottom: 15, trailing: 5)
+                layoutSection.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 5)
                 layoutSection.orthogonalScrollingBehavior = .groupPaging
                 let layoutSectionHeader = self.createSectionHeader()
                 layoutSection.boundarySupplementaryItems = [layoutSectionHeader]
@@ -58,7 +58,7 @@ class AlbumViewController: UIViewController {
                 layoutGroup.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 5, bottom: 0, trailing: 0)
                 layoutGroup.interItemSpacing = NSCollectionLayoutSpacing.fixed(10)
                 let layoutSection = NSCollectionLayoutSection(group: layoutGroup)
-                layoutSection.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 5, bottom: 15, trailing: 5)
+                layoutSection.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 5, bottom: 10, trailing: 5)
                 layoutSection.orthogonalScrollingBehavior = .groupPaging
                 let layoutSectionHeader = self.createSectionHeader()
                 layoutSection.boundarySupplementaryItems = [layoutSectionHeader]

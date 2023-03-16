@@ -28,7 +28,7 @@ class PhotosTabBar: UITabBarController, UITabBarControllerDelegate {
     func setupTabBarViewControllers() {
         
         let first = DefaultTabBarController()
-        let firstIcon = UITabBarItem(title: "Library", image: UIImage(systemName: "square.stack.fill"), selectedImage: UIImage(systemName: "square.stack.fill"))
+        let firstIcon = UITabBarItem(title: "Library", image: UIImage(systemName: "rectangle.fill.badge.person.crop"), selectedImage: UIImage(systemName: "rectangle.fill.badge.person.crop"))
         first.tabBarItem = firstIcon
         
         let second = DefaultTabBarController()
