@@ -25,7 +25,6 @@ class AlbumViewController: UIViewController {
         collectionView.register(AlbumFoldersCell.self, forCellWithReuseIdentifier: AlbumFoldersCell.identifier)
         collectionView.register(AlbumListCell.self, forCellWithReuseIdentifier: AlbumListCell.identifier)
         collectionView.register(SectionHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: SectionHeader.identifier)
-        
         return collectionView
     }()
     
@@ -104,7 +103,7 @@ class AlbumViewController: UIViewController {
         return layoutSectionHeader
     }
     
-    func setupNavigationBar() {
+    private func setupNavigationBar() {
         title = "Albums"
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.setLeftBarButton(UIBarButtonItem(

@@ -15,7 +15,7 @@ class AlbumFoldersCell: UICollectionViewCell {
     
     // MARK: - UI Components
     
-    lazy var folderImage: UIImageView = {
+    private lazy var folderImage: UIImageView = {
         let image = UIImageView()
         image.contentMode = .scaleAspectFit
         image.layer.cornerRadius = 6
@@ -23,15 +23,14 @@ class AlbumFoldersCell: UICollectionViewCell {
         return image
     }()
     
-    lazy var folderNameLabel: UILabel = {
+    private lazy var folderNameLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .left
         label.font = .systemFont(ofSize: 15)
-        
         return label
     }()
     
-    lazy var picturesQuabtityLabel: UILabel = {
+    private lazy var picturesQuabtityLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .left
         label.textColor = .lightGray
@@ -62,12 +61,6 @@ class AlbumFoldersCell: UICollectionViewCell {
     
     // MARK: - Setup View
     
-    public func configure(with model: AlbumFolders){
-        folderImage.image = model.image
-        folderNameLabel.text = model.folderName
-        picturesQuabtityLabel.text = model.picturesQuantity
-    }
-    
     private func setupView() {
         addSubview(folderStack)
         folderStack.addArrangedSubview(folderImage)
@@ -85,8 +78,13 @@ class AlbumFoldersCell: UICollectionViewCell {
         }
     }
     
+    public func configure(with model: AlbumFolders){
+        folderImage.image = model.image
+        folderNameLabel.text = model.folderName
+        picturesQuabtityLabel.text = model.picturesQuantity
+    }
+    
     override func prepareForReuse() {
         self.folderImage.image = nil
     }
 }
-
