@@ -42,12 +42,12 @@ class PhotosTabBar: UITabBarController, UITabBarControllerDelegate {
         let fourth = DefaultTabBarController()
         let fourthIcon = UITabBarItem(title: "Search", image: UIImage(systemName: "magnifyingglass"), selectedImage: UIImage(systemName: "magnifyingglass"))
         fourth.tabBarItem = fourthIcon
-        
+
         let controllers = [first, second, third, fourth]
         self.setViewControllers(controllers, animated: true)
     }
     
-    func tabBarController(_tabBarContoller: UITabBarController, shouldSelect viewController: UIViewController)-> Bool{
+    func tabBarController(_tabBarContoller: UITabBarController, shouldSelect viewController: UIViewController)-> Bool {
         return true
     }
 }

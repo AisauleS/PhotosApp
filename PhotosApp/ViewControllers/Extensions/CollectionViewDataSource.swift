@@ -33,30 +33,30 @@ extension AlbumViewController: UICollectionViewDelegate, UICollectionViewDataSou
         
         switch indexPath.section {
         case 0:
-            let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
+            guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
                                                                          withReuseIdentifier: SectionHeader.identifier,
-                                                                         for: indexPath) as! SectionHeader
+                                                                               for: indexPath) as? SectionHeader else { return UICollectionViewCell() }
             header.title.text = "My Albums"
             header.layer.addBorder(edge: .top, color: .lightGray, thickness: 0.5)
             return header
         case 1:
-            let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
+            guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
                                                                          withReuseIdentifier: SectionHeader.identifier,
-                                                                         for: indexPath) as! SectionHeader
+                                                                         for: indexPath) as? SectionHeader else { return UICollectionViewCell() }
             header.title.text = "Shared Album"
             header.layer.addBorder(edge: .top, color: .lightGray, thickness: 0.5)
             return header
         case 2:
-            let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
+            guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
                                                                          withReuseIdentifier: SectionHeader.identifier,
-                                                                         for: indexPath) as! SectionHeader
+                                                                         for: indexPath) as? SectionHeader else { return UICollectionViewCell() }
             header.title.text = "Media Types"
             header.layer.addBorder(edge: .top, color: .lightGray, thickness: 0.5)
             return header
         default:
-            let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
+            guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
                                                                          withReuseIdentifier: SectionHeader.identifier,
-                                                                         for: indexPath) as! SectionHeader
+                                                                         for: indexPath) as? SectionHeader else { return UICollectionViewCell() }
             header.title.text = "My Utility"
             header.layer.addBorder(edge: .top, color: .lightGray, thickness: 0.5)
             return header
@@ -66,28 +66,28 @@ extension AlbumViewController: UICollectionViewDelegate, UICollectionViewDataSou
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         switch indexPath.section{
         case 0:
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumFoldersCell.identifier, for: indexPath) as! AlbumFoldersCell
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumFoldersCell.identifier, for: indexPath) as? AlbumFoldersCell else { return UICollectionViewCell() }
             let model = myAlbums[indexPath.row]
             cell.configure(with: model)
             return cell
             
         case 1:
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumFoldersCell.identifier, for: indexPath)as! AlbumFoldersCell
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumFoldersCell.identifier, for: indexPath) as? AlbumFoldersCell else { return UICollectionViewCell() }
             let model = sharedAlbums[indexPath.row]
             cell.configure(with: model)
             return cell
         case 2:
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumListCell.identifier, for: indexPath)as! AlbumListCell
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumListCell.identifier, for: indexPath) as? AlbumListCell else { return UICollectionViewCell() }
             let model = mediaTypes[indexPath.row]
             cell.configure(with: model)
             return cell
         case 3:
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumListCell.identifier, for: indexPath)as! AlbumListCell
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumListCell.identifier, for: indexPath) as? AlbumListCell else { return UICollectionViewCell() }
             let model = utilities[indexPath.row]
             cell.configure(with: model)
             return cell
         default:
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumFoldersCell.identifier, for: indexPath)as! AlbumFoldersCell
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AlbumFoldersCell.identifier, for: indexPath) as? AlbumFoldersCell else { return UICollectionViewCell() }
             return cell
         }
     }

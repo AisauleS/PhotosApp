@@ -15,7 +15,7 @@ protocol AlbumsSection {
     var picturesQuantity: String? {get set}
 }
 
-struct AlbumFolders : AlbumsSection {
+struct AlbumFolders: AlbumsSection {
     var image: UIImage?
     var folderName: String
     var picturesQuantity: String?

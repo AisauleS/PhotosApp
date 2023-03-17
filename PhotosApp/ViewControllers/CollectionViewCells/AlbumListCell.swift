@@ -28,7 +28,7 @@ class AlbumListCell: UICollectionViewCell {
         return imageView
     }()
     
-    lazy var picturesQuabtityLabel: UILabel = {
+    private lazy var picturesQuabtityLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .left
         label.textColor = .lightGray
